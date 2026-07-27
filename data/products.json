@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro de Alto Rendimiento",
+    "description": "Portátil ideal para desarrollo de software y tareas exigentes. Cuenta con 16GB de RAM, SSD ultrarrápido y un procesador de última generación.",
+    "category": "Computadoras",
+    "price": 1250.00,
+    "image": "../img/laptop.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Galaxy Premium",
+    "description": "Teléfono inteligente con cámara de alta resolución, batería de larga duración, carga rápida y pantalla AMOLED brillante.",
+    "category": "Celulares",
+    "price": 899.50,
+    "image": "../img/galaxy.png"
+  },
+  {
+    "id": 3,
+    "name": "Monitor Curvo Samsung Odyssey",
+    "description": "Monitor curvo diseñado para la mejor inmersión visual. Alta tasa de refresco (144Hz), tiempo de respuesta de 1ms y colores vibrantes.",
+    "category": "Monitores",
+    "price": 450.00,
+    "image": "../img/odysseyMonitor.png"
+  },
+  {
+    "id": 4,
+    "name": "Smart TV OLED 4K UHD",
+    "description": "Pantalla con tecnología OLED que ofrece negros perfectos, contraste infinito, resolución 4K ultranítida y funciones inteligentes integradas.",
+    "category": "Televisores",
+    "price": 1100.00,
+    "image": "../img/oled.png"
+  }
+]
