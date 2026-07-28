@@ -3,9 +3,9 @@ let productsList = [];
 
 async function getProducts() {
     try {
-        const response = await fetch('https://fakestoreapi.com/products');
+        const response = await fetch('../assets/data/products.json');
         const data = await response.json();
-        productsList = data.filter(p=>p.category==="electronics") ;
+        productsList = data;
         
        
         renderCatalog(productsList); 
