@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             localStorage.setItem("user", JSON.stringify(userFound));
            
             setTimeout(() => {
-                window.location.href = "../home.html"; // Redirect to home.html after 2 seconds
+                window.location.href = "./home.html"; // Redirect to home.html after 2 seconds
             }, 2000);
         }
     

@@ -1,14 +1,22 @@
 [
     {
     "username": "Milo",
-    "password": "0806"     
+    "password": "0806",
+    "rol": "customer"     
     },
     {
         "username": "Tony",
-        "password": "123"
+        "password": "123",
+        "rol":"customer"
     },
     {
         "username": "Marcos",
-        "password": "321"
+        "password": "321",
+        "rol":"customer"
+    },
+    {
+        "username": "admin",
+        "password": "admin123",
+        "rol": "Admin"
     }
 ]
