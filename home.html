@@ -1,24 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MiloTechStore-Productos</title>
-        <link rel="stylesheet" href="../assets/css/home.css">
-    </head>
-    <body>
-        <header class="navbar">
-            <div>
-                 <span>MiloTechStore</span>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiloTechStore-Productos</title>
+    <link rel="stylesheet" href="../assets/css/home.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="brand-header">
+        <span class="brand-name">MiloTechStore</span>
+      </div>
 
-        </header>
+      <div class="welcome-message">
+        <span>Bienvenido, <strong id="user-name-display">Usuario</strong></span>
+      </div>
 
-        <main>
+      <div class="cart-wrapper">
+        <button id="cart-btn" class="btn-cart">
+          🛒 Carrito (<span id="cart-count">0</span>)
+        </button>
+      </div>
+    </header>
+
+    <main class="catalog-wrapper">
+      <div class="header-text">
+        <h1 class="title">Nuestros Productos</h1>
+        <p class="subtitle">Explora lo mejor en tecnología</p>
+      </div>
+
+      <section id="product-container" class="product-grid">
+        <!-- The products will be dynamically inserted here -->
+      </section>
+
+    </main>
+    <div id="product-modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-modal-btn" class="close-btn">&times;</button>
             
-        </main>
-
-    </body>
-
-
+            <div id="modal-details" class="modal-body">
+           <!--here the product details will be dynamically inserted here--> 
+            </div>
+        </div>
+    </div>
+    <script src="./js/pages/product.js"></script>
+  </body>
 </html>
