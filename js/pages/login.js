@@ -20,9 +20,9 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
                 messageElement.style.color = "green";
                 // Redirect to another page or perform other actions
             localStorage.setItem("user", JSON.stringify(userFound));
-
+           
             setTimeout(() => {
-                window.location.href = "index.html"; // Redirect to index.html after 2 seconds
+                window.location.href = "../home.html"; // Redirect to home.html after 2 seconds
             }, 2000);
         }
     
