@@ -30,7 +30,6 @@ function renderCatalog(products) {
             <button class="btn-primary btn-detail" data-id="${product.id}">Details</button>
         </div>
     `).join('');
-
   
     document.querySelectorAll('.btn-detail').forEach(button => {
         button.addEventListener('click', (event) => {
@@ -49,14 +48,22 @@ function showProductDetails(id) {
 
     if (!product || !modal || !modalDetails) return;
 
-    // HTML Injection
+  // to show in red if it's out of stock or in green if it's available
+    const stockMessage = product.stock > 0 
+        ? `<p style="color: #1b5e20; font-weight: bold; margin-bottom: 1rem;">En stock: ${product.stock} unidades</p>` 
+        : `<p style="color: red ; font-weight: bold; margin-bottom: 1rem;">¡Agotado!</p>`;
+
+    // HTML Injection 
     modalDetails.innerHTML = `
         <img src="${product.image}" alt="${product.title}" style="width: 100%; max-height: 250px; object-fit: contain; margin-bottom: 1rem;" />
         <h2 class="title">${product.title}</h2>
         <p class="subtitle" style="margin-bottom: 1rem; text-transform: uppercase;">${product.category}</p>
-        <p style="margin-bottom: 1.5rem;">${product.description}</p>
+        <p style="margin-bottom: 1rem;">${product.description}</p>
+        ${stockMessage}
         <p class="product-price">$${product.price.toFixed(2)}</p>
-        <button class="btn-primary" id="add-to-cart-btn">Add to cart</button>
+        <button class="btn-primary" id="add-to-cart-btn" ${product.stock === 0 ? 'disabled style="background-color: #ccc; cursor: not-allowed;"' : ''}>
+            ${product.stock === 0 ? 'Sin existencias' : 'Agregar al Carrito'}
+        </button>
     `;
   
     modal.classList.remove('hidden');
@@ -67,10 +74,14 @@ function showProductDetails(id) {
 
     // conexión con el botón "Add to cart"
     document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
+        await cartService.init();
+        cartService.addToCart(product, 1);
+        updateCartBadge();
 
-    }
+        alert("Product added to the cart");
+        modal.classList.add("hidden");
+    });
 
-    }
 
     function chargeUserName()
     {

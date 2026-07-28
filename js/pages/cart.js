@@ -38,10 +38,10 @@ function render() {
     // Genera dinámicamente el HTML de cada producto del carrito.
     cartContainer.innerHTML = cartItems.map(item => `
         <div class="cart-item" data-id="${item.product.id}">
-            <img scr=${item.product.image}" alt=${item.product.name}">
+            <img src="${item.product.image}" alt="${item.product.title}">
 
             <div class="class-item-info">
-                <h3>${item.product.name}</h3>
+                <h3>${item.product.title}</h3>
                 <p class="cart-item-price">$${item.product.price}</p>
             </div>
             
@@ -57,7 +57,7 @@ function render() {
     `).join(""); // Une todos los elementos del array en un único string HTML.
 
      // Actualiza el total del carrito.
-     cartTotal.textContent = `$${cartService.calculateTotal()}`;
+     cartTotal.textContent = `$${cartService.calculateTotal().toFixed(2)}`;
 }
 
 // Configura los eventos que permiten interactuar con el carrito.
