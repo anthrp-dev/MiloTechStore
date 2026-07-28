@@ -81,8 +81,13 @@ function showProductDetails(id) {
         }
     }
 
+import { getCartItemCount } from "../utils/storage.js";
 
-
+function updateCartBadge() {
+    const count = getCartItemCount();
+    document.querySelector("#cart-count").textContent = count
+}
 
 chargeUserName();
 getProducts();
+updateCartBadge();

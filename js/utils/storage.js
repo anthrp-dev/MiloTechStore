@@ -24,3 +24,8 @@ export function loadCart() {
 export function clearCart() {
     localStorage.removeItem(CART_STORAGE_KEY);
 }
+
+export function getCartItemCount() {
+    const cart = loadCart();
+    return cart.reduce((total, item) => total + item.quantity, 0);
+}
