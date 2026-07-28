@@ -2,17 +2,63 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>MiloTechStore-Cart</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/cart.css">
+    <!-- Permite que la página se adapte a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>MiloTechStore - Cart</title>
+    <!-- Estilos generales de la aplicación -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Estilos específicos de la página del carrito -->
+    <link rel="stylesheet" href="assets/css/cart.css">
 </head>
 
 <body>
-    <h1>Cart</h1>
-    <div id="cart-items"></div>
+    <!-- Barra de navegación superior -->
+   <header class="navbar">
+    <!-- Nombre de la tienda -->
+    <div class="brand-header">
+        <span class="brand-name">MiloTechStore</span>
+    </div>
 
-    <p>Total: $<span id="total-price">0.00</span></p>
+    <!-- Muestra el nombre del usuario autenticado -->
+   <div class="welcome-message">
+    <span>Bienvenido, <strong id="user-name-display">Usuario</strong></span>
+   </div>
 
-    <script type="module" src="js/pages/cart.js"></script>
+   <!-- Botón para regresar al catálogo de productos -->
+   <a href="home.html" class="btn-cart">←Seguir comprando</a>
+   </header>
+
+   <!-- Contenido principal de la página -->
+    <main class="cart-wrapper-page">
+        <!-- Encabezado del carrito -->
+        <div class="header-text">
+            <h1 class="title">Tu carrito</h1>
+            <p class="subtitle">Revisá tus productos antes de finalizar</p>
+        </div>
+    <!-- Se muestra únicamente cuando el carrito no contiene productos -->
+    <div id="cart-empty" class="class-empty-hidden">
+        <p>Tu carrito está vacío</p>
+        <!-- Enlace para volver al catálogo -->
+        <a href="home.html" class="btn-primary">Ver productos</a>
+    </div>
+
+    <!-- Contenedor donde JavaScript inserta dinámicamente los productos -->
+     <section id="cart-items" class="cart-list"></section>
+
+     <!-- Resumen del carrito (total y acciones) -->
+     <div id="cart-summary" class="cart-summary hidden">
+        <!-- Muestra el monto total de la compra -->
+        <div class="summary-row">
+            <span>Total</span>
+            <span id="cart-total">$0.00</span>
+        </div>
+        
+        <button id="clear-cart-btn" class="btn-secondary">Vaciar carrito</button>
+     </div>
+</main>
+
+<!-- Script principal de la página del carrito -->
+<script type="module" src="js/pages/cart.js"></script>
 </body>
 </html>

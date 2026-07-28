@@ -1,0 +1,184 @@
+/* Contenedor principal del contenido del carrito.
+   Limita el ancho para mejorar la lectura y centra la página. */
+.cart-wrapper-page {
+    max-width: 900px;       /* Evita que el contenido se estire demasiado en pantallas grandes */
+    margin: 0 auto;     /* Centra horizontalmente el contenedor */
+    padding: 0 2rem 4rem 2rem;      /* Espaciado interno (arriba, derecha, abajo, izquierda) */
+}
+
+/* Se muestra únicamente cuando el carrito no tiene productos *
+.cart-empty {
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 16px;        /* Esquinas redondeadas */
+    text-align: center;     /* Centra el texto y el botón */     
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos del mensaje de carrito vacío */
+.cart-empty p {
+    margin-bottom: 1.5rem;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Ajusta el botón para que solo ocupe el ancho de su contenido */
+.cart-empty .btn-primary {
+    display: inline-block;
+    width: auto;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+}
+
+/* Contenedor donde JavaScript agrega todos los productos del carrito */
+.cart-list {
+    display: flex;
+    flex-direction: column;      /* Los productos se apilan verticalmente */
+    gap: 1rem;       /* Espacio entre cada producto */
+    margin-bottom: 2rem;
+}
+
+/* Tarjeta individual de cada producto */
+.cart-item {
+    background: #ffffff;
+    padding: 1.25rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    /* Organiza imagen, información y botones en una fila */
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+/* Imagen del producto */
+.cart-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;    /* Mantiene la proporción sin deformar la imagen */
+    flex-shrink: 0;    /* Evita que la imagen se encoja */
+}
+
+
+/* Información principal del producto */
+.cart-item-info {
+    flex-grow: 1;       /* Ocupa todo el espacio disponible */
+}
+
+.cart-item-info h3 {
+    font-size: 1rem;
+    color: #111;
+    margin-bottom: 0.25rem;
+}
+
+/* Resalta el precio con el color principal */
+.cart-item-info .cart-item-price {
+    color: #1b5e20;
+    font-weight: 600;
+}
+
+/* Controles para aumentar o disminuir la cantidad */
+.cart-item-quantity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Botones + y - */
+.cart-item-quantity button {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #1b5e20;
+    background: #f4f7f6;
+    color: #1b5e20;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Feedback visual al pasar el mouse */
+.cart-item-quantity button:hover {
+    background-color: #1b5e20;
+    color: #ffffff;
+}
+
+/* Número que indica la cantidad actual */
+.cart-item-quantity span {
+    min-width: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Muestra el subtotal correspondiente a ese producto */
+.cart-item-subtotal {
+    font-weight: 700;
+    color: #111;
+    min-width: 70px;        /* Mantiene alineados los subtotales */
+    text-align: right;
+}
+
+/* Botón para eliminar únicamente ese producto */
+.cart-item-remove {
+    background: none;
+    border: none;
+    color: #c62828;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: underline;    
+}
+
+.cart-item-remove:hover {
+    color: #8e0000;
+}
+
+/* Tarjeta que muestra el total del carrito */
+.cart-summary {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Distribuye el texto "Total" y el monto en extremos opuestos */
+.summary-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #111;
+    margin-bottom: 1.25rem;
+}
+
+/* Resalta el monto total */
+.summary-row span:last-child {
+    color: #1b5e20;
+}
+
+/* Botón para vaciar todo el carrito */
+.btn-secondary {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #ffffff;
+    color: #c62828;
+    border: 2px solid #c62828;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    /* Hace que el cambio de color sea más suave */
+    transition: all 0.2s ease;
+}
+
+/* Cambia los colores al pasar el cursor */
+.btn-secondary:hover {
+    background-color: #c62828;
+    color: #ffffff;
+}
+
+
+/* Clase reutilizable para ocultar elementos.
+   JavaScript la agrega o elimina según el estado de la interfaz. */
+.hidden {
+display: none;
+}
