@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <title>Sign up</title>
   <!-- Vinculación del archivo CSS externo -->
- <link rel="stylesheet" href="./assets/css/login.css">
+ <link rel="stylesheet" href="./assets/css/signup.css">
 </head>
 <body>
 
@@ -19,32 +19,24 @@
             </div>
             <span class="brand-name">MiloTechStore</span>
         </div>
-
-        <!-- Tarjeta de Login -->
-        <main class="login-card">
-            <div class="header-text">
-                <p class="subtitle">Please enter your details</p>
-                <h1 class="title">Welcome</h1>
+        <main class="signup-card">
+          <div class="header-text">
+            <p class="subtitle">Please enter your details.</p>
+            <h1 class="title">Sign Up</h1>
+          </div>
+          <form id="signForm" class="sign-form">
+            <div>
+              <input type="username" id="username" placeholder="Username" required>
             </div>
 
-            <form id="loginForm" class="login-form">
-                <div class="input-group">
-                    <input type="username" id="username" placeholder="Username" required> 
-                </div>
-
-                <div class="input-group">
+             <div class="input-group">
                     <input type="password" id="password" placeholder="Password" required>
                 </div>
 
-                <div>
-                   <a href="signup.html" class="link"> Don't have an account?  Sign up</a>
-
+                 <div class="input-group">
+                    <input type="confirmation" id="confirmation" placeholder="Confirmation"
+                     required>
                 </div>
-                <button type="submit" class="btn-primary">Sign in</button>
-                <p id="message"></p>
-            </form>
+          </form>
         </main>
-    </div>
-    <script src="js/pages/login.js"></script>
-</body>
 </html>

@@ -118,3 +118,24 @@ body {
 .btn-primary:active {
     transform: scale(0.98);
 }
+
+  .btn-registro {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #81fa9b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-registro:hover {
+    background-color: #81fa9b;
+  }
+
+  .link {
+   color: #086d2a;
+ 
+  }
