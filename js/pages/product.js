@@ -1,11 +1,13 @@
+import { getCartItemCount } from "../utils/storage.js";
+import * as cartService from "../services/cartService.js";
 
 let productsList = [];
 
 async function getProducts() {
     try {
-        const response = await fetch('https://fakestoreapi.com/products');
+        const response = await fetch('assets/data/products.json');
         const data = await response.json();
-        productsList = data.filter(p=>p.category==="electronics") ;
+        productsList = data;
         
        
         renderCatalog(productsList); 
@@ -40,8 +42,7 @@ function renderCatalog(products) {
 
 
 function showProductDetails(id) { 
-    const product = productsList.find(p => p.id == id);
-    
+    const product = productsList.find(p => p.id == id);   
     
     const modal = document.getElementById('product-modal'); 
     const modalDetails = document.getElementById('modal-details');
@@ -57,15 +58,20 @@ function showProductDetails(id) {
         <p class="product-price">$${product.price.toFixed(2)}</p>
         <button class="btn-primary" id="add-to-cart-btn">Add to cart</button>
     `;
-    
   
     modal.classList.remove('hidden');
-
 
     document.getElementById('close-modal-btn')?.addEventListener('click', () => {
         document.getElementById('product-modal')?.classList.add('hidden');
     });
+
+    // conexión con el botón "Add to cart"
+    document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
+
     }
+
+    }
+
     function chargeUserName()
     {
         const savedUser= localStorage.getItem('user');
@@ -80,8 +86,6 @@ function showProductDetails(id) {
             window.location.href="index.html"
         }
     }
-
-import { getCartItemCount } from "../utils/storage.js";
 
 function updateCartBadge() {
     const count = getCartItemCount();
