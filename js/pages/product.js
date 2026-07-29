@@ -81,6 +81,7 @@ function showProductDetails(id) {
         alert("Product added to the cart");
         modal.classList.add("hidden");
     });
+}
 
 function chargeUserName() {
     const savedUser = localStorage.getItem('user');

@@ -24,7 +24,7 @@ function render() {
     const cartItems = cartService.getCartItems();
 
     // Si el carrito está vacío, muestra el mensaje correspondiente.
-    if (cartItems.lenght === 0) {
+    if (cartItems.length === 0) {
         cartContainer.innerHTML = "";   // Limpia productos anteriores.
         cartEmpty.classList.remove("hidden");   // Muestra el mensaje "carrito vacío".
         cartSummary.classList.add("hidden");    // Oculta el resumen y el total.
@@ -51,8 +51,8 @@ function render() {
                 <button class="qty-increase">+</button>
             </div>
 
-            <p class="cart-item.subtotal">$${item.product.price * item.quantity}</p>
-            <button class="cart-item-remove">Eliminar>/button>
+            <p class="cart-item-subtotal">$${item.product.price * item.quantity}</p>
+            <button class="cart-item-remove">Eliminar</button>
         </div>
     `).join(""); // Une todos los elementos del array en un único string HTML.
 
@@ -76,12 +76,12 @@ function setupEventListeners() {
             render();
         }
 
-        if (event.target.classList.constains("qty-decrease")) {
-            cartService.updateQuantity(productId. currentItem.quantity - 1);
+        if (event.target.classList.contains("qty-decrease")) {
+            cartService.updateQuantity(productId, currentItem.quantity - 1);
             render();
         }
 
-        if (event.target.classList.constains("cart-item-remove")) {
+        if (event.target.classList.contains("cart-item-remove")) {
             cartService.removeFromCart(productId);
             render();
         }
