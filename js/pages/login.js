@@ -1,3 +1,8 @@
+
+localStorage.removeItem('user');
+
+
+
 document.getElementById("loginForm").addEventListener("submit", async function(e) {
         e.preventDefault(); // Prevent form submission
 
@@ -10,6 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             
             if (!response.ok) {
                 throw new Error("This user does not exist.");
+               
             }
 
             const users = await response.json();
@@ -18,12 +24,21 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             if (userFound) {
                 messageElement.textContent = "Login successful!";
                 messageElement.style.color = "green";
-                // Redirect to another page or perform other actions
+                
             localStorage.setItem("user", JSON.stringify(userFound));
+            cleanForm(); 
            
-            setTimeout(() => {
-                window.location.href = "./home.html"; // Redirect to home.html after 2 seconds
+           setTimeout(() => {
+               
+                if (userFound.rol === "Admin") {
+                 
+                    window.location.href = "../admin.html"; 
+                } else {
+                   
+                    window.location.href = "./home.html"; 
+                }
             }, 2000);
+            
         }
     
 
@@ -38,3 +53,9 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
         }
     
 });
+
+function cleanForm() {
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+    
+}
