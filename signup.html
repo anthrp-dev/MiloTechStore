@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign up</title>
   <!-- Vinculación del archivo CSS externo -->
- <link rel="stylesheet" href="./assets/css/signup.css">
+ <link rel="stylesheet" href="./assets/css/login.css">
 </head>
 <body>
 
@@ -19,13 +19,13 @@
             </div>
             <span class="brand-name">MiloTechStore</span>
         </div>
-        <main class="signup-card">
+        <main class="login-card">
           <div class="header-text">
             <p class="subtitle">Please enter your details.</p>
             <h1 class="title">Sign Up</h1>
           </div>
-          <form id="signForm" class="sign-form">
-            <div>
+          <form id="signupForm" class="login-form">
+            <div class="input-group">
               <input type="username" id="username" placeholder="Username" required>
             </div>
 
@@ -34,9 +34,12 @@
                 </div>
 
                  <div class="input-group">
-                    <input type="confirmation" id="confirmation" placeholder="Confirmation"
+                    <input type="confirmation" id="confirmation" placeholder="Confirm"
                      required>
                 </div>
+
+               <button type="submit" class="btn-primary">Sign up</button>
+                <p id="message"></p>
           </form>
         </main>
 </html>
