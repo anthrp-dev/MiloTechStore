@@ -30,7 +30,6 @@ function renderCatalog(products) {
             <button class="btn-primary btn-detail" data-id="${product.id}">Details</button>
         </div>
     `).join('');
-
   
     document.querySelectorAll('.btn-detail').forEach(button => {
         button.addEventListener('click', (event) => {
@@ -75,10 +74,14 @@ function showProductDetails(id) {
 
     // conexión con el botón "Add to cart"
     document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
+        await cartService.init();
+        cartService.addToCart(product, 1);
+        updateCartBadge();
 
-    }
+        alert("Product added to the cart");
+        modal.classList.add("hidden");
+    });
 
-    }
 
     function chargeUserName()
     {
