@@ -51,3 +51,17 @@ export function clearCartItems() {
 export function calculateTotal() {
     return cartItems.reduce((sum, item) => sum + (item.product.price * item.quantity), 0);
 }
+
+export function updateQuantity(productId, quantity) {
+    const item = cartItems.find(item => item.product.id === productId);
+
+    if (!item) return;
+
+    if (quantity <= 0) {
+        removeFromCart(productId);
+        return;
+    }
+
+    item.quantity = quantity;
+    saveCart(cartItems);
+}

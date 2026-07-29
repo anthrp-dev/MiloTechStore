@@ -1,11 +1,13 @@
+import { getCartItemCount } from "../utils/storage.js";
+import * as cartService from "../services/cartService.js";
 
 let productsList = [];
 
 async function getProducts() {
     try {
-        const response = await fetch('https://fakestoreapi.com/products');
+        const response = await fetch('assets/data/products.json');
         const data = await response.json();
-        productsList = data.filter(p=>p.category==="electronics") ;
+        productsList = data;
         
        
         renderCatalog(productsList); 
@@ -28,7 +30,6 @@ function renderCatalog(products) {
             <button class="btn-primary btn-detail" data-id="${product.id}">Details</button>
         </div>
     `).join('');
-
   
     document.querySelectorAll('.btn-detail').forEach(button => {
         button.addEventListener('click', (event) => {
@@ -40,49 +41,67 @@ function renderCatalog(products) {
 
 
 function showProductDetails(id) { 
-    const product = productsList.find(p => p.id == id);
-    
+    const product = productsList.find(p => p.id == id);   
     
     const modal = document.getElementById('product-modal'); 
     const modalDetails = document.getElementById('modal-details');
 
     if (!product || !modal || !modalDetails) return;
 
-    // HTML Injection
+  // to show in red if it's out of stock or in green if it's available
+    const stockMessage = product.stock > 0 
+        ? `<p style="color: #1b5e20; font-weight: bold; margin-bottom: 1rem;">En stock: ${product.stock} unidades</p>` 
+        : `<p style="color: red ; font-weight: bold; margin-bottom: 1rem;">¡Agotado!</p>`;
+
+    // HTML Injection 
     modalDetails.innerHTML = `
         <img src="${product.image}" alt="${product.title}" style="width: 100%; max-height: 250px; object-fit: contain; margin-bottom: 1rem;" />
         <h2 class="title">${product.title}</h2>
         <p class="subtitle" style="margin-bottom: 1rem; text-transform: uppercase;">${product.category}</p>
-        <p style="margin-bottom: 1.5rem;">${product.description}</p>
+        <p style="margin-bottom: 1rem;">${product.description}</p>
+        ${stockMessage}
         <p class="product-price">$${product.price.toFixed(2)}</p>
-        <button class="btn-primary" id="add-to-cart-btn">Add to cart</button>
+        <button class="btn-primary" id="add-to-cart-btn" ${product.stock === 0 ? 'disabled style="background-color: #ccc; cursor: not-allowed;"' : ''}>
+            ${product.stock === 0 ? 'Sin existencias' : 'Agregar al Carrito'}
+        </button>
     `;
-    
   
     modal.classList.remove('hidden');
-
 
     document.getElementById('close-modal-btn')?.addEventListener('click', () => {
         document.getElementById('product-modal')?.classList.add('hidden');
     });
-    }
-    function chargeUserName()
-    {
-        const savedUser= localStorage.getItem('user');
-        if(savedUser)
-        {
-            const objectUser=JSON.parse(savedUser)
-            const displayElement=document.getElementById('user-name-display');
-            if(displayElement){
-                displayElement.textContent=objectUser.username;
-            }
-        }else{
-            window.location.href="index.html"
+
+    // conexión con el botón "Add to cart"
+    document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
+        await cartService.init();
+        cartService.addToCart(product, 1);
+        updateCartBadge();
+
+        alert("Product added to the cart");
+        modal.classList.add("hidden");
+    });
+}
+
+function chargeUserName() {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+        const objectUser = JSON.parse(savedUser);
+        const displayElement = document.getElementById('user-name-display');
+        if (displayElement) {
+            displayElement.textContent = objectUser.username;
         }
+    } else {
+        window.location.href = "index.html";
     }
+}
+    
 
-
-
+function updateCartBadge() {
+    const count = getCartItemCount();
+    document.querySelector("#cart-count").textContent = count;
+}
 
 chargeUserName();
 getProducts();
+updateCartBadge();
