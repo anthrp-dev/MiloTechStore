@@ -4,7 +4,7 @@
     "title": "Zenith Laptop Modelo 101",
     "price": 366.04,
     "description": "Portátil de alto rendimiento ideal para trabajo y gaming",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEE1NTY4Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SuzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.4,
@@ -17,7 +17,7 @@
     "title": "Pulse Smartphone Modelo 102",
     "price": 235.6,
     "description": "Teléfono inteligente con cámara avanzada y batería de larga duración",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.7,
@@ -30,7 +30,7 @@
     "title": "Apex Auriculares Inalámbricos Modelo 103",
     "price": 562.21,
     "description": "Auriculares con cancelación de ruido y sonido envolvente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjODA1QUQ1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.0,
@@ -43,7 +43,7 @@
     "title": "Cobalt Teclado Mecánico Modelo 104",
     "price": 513.11,
     "description": "Teclado mecánico retroiluminado para gaming y productividad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyoPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 3.6,
@@ -56,7 +56,7 @@
     "title": "Radiant Mouse Gamer Modelo 105",
     "price": 1060.4,
     "description": "Mouse ergonómico de alta precisión con sensor óptico",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.8,
@@ -69,7 +69,7 @@
     "title": "Drift Monitor 4K Modelo 106",
     "price": 1901.83,
     "description": "Monitor de alta resolución con colores vibrantes y bajo tiempo de respuesta",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM1MjgyIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WpTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.6,
@@ -82,7 +82,7 @@
     "title": "Nexora Cámara Digital Modelo 107",
     "price": 709.11,
     "description": "Cámara compacta con sensor de alta calidad para fotografía profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.9,
@@ -95,7 +95,7 @@
     "title": "Quantum Drone Modelo 108",
     "price": 273.47,
     "description": "Dron plegable con cámara estabilizada y control remoto de largo alcance",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+buDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.5,
@@ -108,7 +108,7 @@
     "title": "Orbit Smartwatch Modelo 109",
     "price": 1517.23,
     "description": "Reloj inteligente con monitor de salud y notificaciones",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQzUzMDMwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyaPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 4.2,
@@ -121,7 +121,7 @@
     "title": "Strato Tablet Modelo 110",
     "price": 1349.84,
     "description": "Tableta ligera con pantalla de alta definición y gran autonomía",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE4MkNFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.9,
@@ -134,7 +134,7 @@
     "title": "Nimbus Altavoz Bluetooth Modelo 111",
     "price": 1389.05,
     "description": "Altavoz portátil resistente al agua con sonido potente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjRDY5RTJFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UijwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.3,
@@ -147,7 +147,7 @@
     "title": "Cipher Router Wi-Fi Modelo 112",
     "price": 1451.82,
     "description": "Router de doble banda con cobertura extendida y alta velocidad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE5Nzk1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.8,
@@ -160,7 +160,7 @@
     "title": "Kinetic Disco SSD Modelo 113",
     "price": 585.18,
     "description": "Unidad de estado sólido con velocidades de lectura y escritura ultrarrápidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEM1MUJGIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SvjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.2,
@@ -173,7 +173,7 @@
     "title": "Vortex Tarjeta Gráfica Modelo 114",
     "price": 2168.87,
     "description": "GPU de última generación para gaming y renderizado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4pqZPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 2.5,
@@ -186,7 +186,7 @@
     "title": "Novatech Cargador Inalámbrico Modelo 115",
     "price": 2088.58,
     "description": "Base de carga rápida compatible con múltiples dispositivos",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UjDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.7,
@@ -199,7 +199,7 @@
     "title": "Fusion Webcam HD Modelo 116",
     "price": 539.57,
     "description": "Cámara web con resolución full HD para videollamadas nítidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TuTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.1,
@@ -212,7 +212,7 @@
     "title": "Helix Impresora Multifuncional Modelo 117",
     "price": 1627.12,
     "description": "Impresora con escáner y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNzE4MDk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WqDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.4,
@@ -225,7 +225,7 @@
     "title": "Vertex Micrófono USB Modelo 118",
     "price": 1828.22,
     "description": "Micrófono de condensador para streaming y grabación profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.7,
@@ -238,7 +238,7 @@
     "title": "Lumen Silla Gamer Modelo 119",
     "price": 2474.01,
     "description": "Silla ergonómica con soporte lumbar ajustable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjOTc1QTE2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+qkTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.6,
@@ -251,7 +251,7 @@
     "title": "TechPro Power Bank Modelo 120",
     "price": 1717.83,
     "description": "Batería portátil de alta capacidad con carga rápida",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UizwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.4,
@@ -264,7 +264,7 @@
     "title": "Zenith Consola de Videojuegos Modelo 121",
     "price": 588.03,
     "description": "Consola con gráficos de última generación y almacenamiento amplio",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNkI0NkMxIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OrjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.1,
@@ -277,7 +277,7 @@
     "title": "Pulse Proyector Portátil Modelo 122",
     "price": 683.99,
     "description": "Proyector compacto con resolución HD y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TvTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.8,
@@ -290,7 +290,7 @@
     "title": "Apex Hub USB-C Modelo 123",
     "price": 2193.38,
     "description": "Adaptador multipuerto con salida HDMI y lector de tarjetas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UlzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.3,
@@ -303,7 +303,7 @@
     "title": "Cobalt Auriculares Gamer Modelo 124",
     "price": 1001.16,
     "description": "Auriculares con sonido envolvente 7.1 y micrófono desmontable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.7,
@@ -316,7 +316,7 @@
     "title": "Radiant Smart TV Modelo 125",
     "price": 676.89,
     "description": "Televisor inteligente con resolución 4K y sistema operativo integrado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TujwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.0,
@@ -329,7 +329,7 @@
     "title": "Drift Laptop Modelo 126",
     "price": 671.59,
     "description": "Portátil de alto rendimiento ideal para trabajo y gaming",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEE1NTY4Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SuzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.3,
@@ -342,7 +342,7 @@
     "title": "Nexora Smartphone Modelo 127",
     "price": 1010.5,
     "description": "Teléfono inteligente con cámara avanzada y batería de larga duración",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.9,
@@ -355,7 +355,7 @@
     "title": "Quantum Auriculares Inalámbricos Modelo 128",
     "price": 1243.91,
     "description": "Auriculares con cancelación de ruido y sonido envolvente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjODA1QUQ1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.0,
@@ -368,7 +368,7 @@
     "title": "Orbit Teclado Mecánico Modelo 129",
     "price": 399.04,
     "description": "Teclado mecánico retroiluminado para gaming y productividad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyoPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 1.6,
@@ -381,7 +381,7 @@
     "title": "Strato Mouse Gamer Modelo 130",
     "price": 1066.95,
     "description": "Mouse ergonómico de alta precisión con sensor óptico",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.3,
@@ -394,7 +394,7 @@
     "title": "Nimbus Monitor 4K Modelo 131",
     "price": 2490.37,
     "description": "Monitor de alta resolución con colores vibrantes y bajo tiempo de respuesta",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM1MjgyIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WpTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.1,
@@ -407,7 +407,7 @@
     "title": "Cipher Cámara Digital Modelo 132",
     "price": 2154.72,
     "description": "Cámara compacta con sensor de alta calidad para fotografía profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.0,
@@ -420,7 +420,7 @@
     "title": "Kinetic Drone Modelo 133",
     "price": 304.08,
     "description": "Dron plegable con cámara estabilizada y control remoto de largo alcance",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+buDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.5,
@@ -433,7 +433,7 @@
     "title": "Vortex Smartwatch Modelo 134",
     "price": 1926.11,
     "description": "Reloj inteligente con monitor de salud y notificaciones",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQzUzMDMwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyaPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 2.4,
@@ -446,7 +446,7 @@
     "title": "Novatech Tablet Modelo 135",
     "price": 412.22,
     "description": "Tableta ligera con pantalla de alta definición y gran autonomía",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE4MkNFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.0,
@@ -459,7 +459,7 @@
     "title": "Fusion Altavoz Bluetooth Modelo 136",
     "price": 673.19,
     "description": "Altavoz portátil resistente al agua con sonido potente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjRDY5RTJFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UijwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.0,
@@ -472,7 +472,7 @@
     "title": "Helix Router Wi-Fi Modelo 137",
     "price": 1279.04,
     "description": "Router de doble banda con cobertura extendida y alta velocidad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE5Nzk1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.4,
@@ -485,7 +485,7 @@
     "title": "Vertex Disco SSD Modelo 138",
     "price": 2107.33,
     "description": "Unidad de estado sólido con velocidades de lectura y escritura ultrarrápidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEM1MUJGIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SvjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.0,
@@ -498,7 +498,7 @@
     "title": "Lumen Tarjeta Gráfica Modelo 139",
     "price": 947.3,
     "description": "GPU de última generación para gaming y renderizado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4pqZPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 1.6,
@@ -511,7 +511,7 @@
     "title": "TechPro Cargador Inalámbrico Modelo 140",
     "price": 2307.63,
     "description": "Base de carga rápida compatible con múltiples dispositivos",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UjDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.7,
@@ -524,7 +524,7 @@
     "title": "Zenith Webcam HD Modelo 141",
     "price": 1231.73,
     "description": "Cámara web con resolución full HD para videollamadas nítidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TuTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.4,
@@ -537,7 +537,7 @@
     "title": "Pulse Impresora Multifuncional Modelo 142",
     "price": 613.83,
     "description": "Impresora con escáner y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNzE4MDk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WqDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.0,
@@ -550,7 +550,7 @@
     "title": "Apex Micrófono USB Modelo 143",
     "price": 232.41,
     "description": "Micrófono de condensador para streaming y grabación profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.9,
@@ -563,7 +563,7 @@
     "title": "Cobalt Silla Gamer Modelo 144",
     "price": 1341.1,
     "description": "Silla ergonómica con soporte lumbar ajustable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjOTc1QTE2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+qkTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.5,
@@ -576,7 +576,7 @@
     "title": "Radiant Power Bank Modelo 145",
     "price": 2368.17,
     "description": "Batería portátil de alta capacidad con carga rápida",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UizwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.7,
@@ -589,7 +589,7 @@
     "title": "Drift Consola de Videojuegos Modelo 146",
     "price": 1069.37,
     "description": "Consola con gráficos de última generación y almacenamiento amplio",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNkI0NkMxIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OrjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.8,
@@ -602,7 +602,7 @@
     "title": "Nexora Proyector Portátil Modelo 147",
     "price": 1830.22,
     "description": "Proyector compacto con resolución HD y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TvTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.8,
@@ -615,7 +615,7 @@
     "title": "Quantum Hub USB-C Modelo 148",
     "price": 2487.96,
     "description": "Adaptador multipuerto con salida HDMI y lector de tarjetas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UlzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.6,
@@ -628,7 +628,7 @@
     "title": "Orbit Auriculares Gamer Modelo 149",
     "price": 1139.68,
     "description": "Auriculares con sonido envolvente 7.1 y micrófono desmontable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.0,
@@ -641,7 +641,7 @@
     "title": "Strato Smart TV Modelo 150",
     "price": 72.15,
     "description": "Televisor inteligente con resolución 4K y sistema operativo integrado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TujwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.2,
@@ -654,7 +654,7 @@
     "title": "Nimbus Laptop Modelo 151",
     "price": 37.82,
     "description": "Portátil de alto rendimiento ideal para trabajo y gaming",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEE1NTY4Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SuzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.8,
@@ -667,7 +667,7 @@
     "title": "Cipher Smartphone Modelo 152",
     "price": 187.14,
     "description": "Teléfono inteligente con cámara avanzada y batería de larga duración",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.1,
@@ -680,7 +680,7 @@
     "title": "Kinetic Auriculares Inalámbricos Modelo 153",
     "price": 1295.1,
     "description": "Auriculares con cancelación de ruido y sonido envolvente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjODA1QUQ1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.1,
@@ -693,7 +693,7 @@
     "title": "Vortex Teclado Mecánico Modelo 154",
     "price": 1357.29,
     "description": "Teclado mecánico retroiluminado para gaming y productividad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyoPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 3.9,
@@ -706,7 +706,7 @@
     "title": "Novatech Mouse Gamer Modelo 155",
     "price": 1448.99,
     "description": "Mouse ergonómico de alta precisión con sensor óptico",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.0,
@@ -719,7 +719,7 @@
     "title": "Fusion Monitor 4K Modelo 156",
     "price": 492.21,
     "description": "Monitor de alta resolución con colores vibrantes y bajo tiempo de respuesta",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM1MjgyIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WpTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.4,
@@ -732,7 +732,7 @@
     "title": "Helix Cámara Digital Modelo 157",
     "price": 1070.46,
     "description": "Cámara compacta con sensor de alta calidad para fotografía profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.9,
@@ -745,7 +745,7 @@
     "title": "Vertex Drone Modelo 158",
     "price": 1689.93,
     "description": "Dron plegable con cámara estabilizada y control remoto de largo alcance",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+buDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.9,
@@ -758,7 +758,7 @@
     "title": "Lumen Smartwatch Modelo 159",
     "price": 1018.49,
     "description": "Reloj inteligente con monitor de salud y notificaciones",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQzUzMDMwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyaPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 2.4,
@@ -771,7 +771,7 @@
     "title": "TechPro Tablet Modelo 160",
     "price": 636.66,
     "description": "Tableta ligera con pantalla de alta definición y gran autonomía",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE4MkNFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.8,
@@ -784,7 +784,7 @@
     "title": "Zenith Altavoz Bluetooth Modelo 161",
     "price": 1066.26,
     "description": "Altavoz portátil resistente al agua con sonido potente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjRDY5RTJFIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UijwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.1,
@@ -797,7 +797,7 @@
     "title": "Pulse Router Wi-Fi Modelo 162",
     "price": 1118.95,
     "description": "Router de doble banda con cobertura extendida y alta velocidad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzE5Nzk1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TtjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.4,
@@ -810,7 +810,7 @@
     "title": "Apex Disco SSD Modelo 163",
     "price": 145.45,
     "description": "Unidad de estado sólido con velocidades de lectura y escritura ultrarrápidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEM1MUJGIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SvjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 5.0,
@@ -823,7 +823,7 @@
     "title": "Cobalt Tarjeta Gráfica Modelo 164",
     "price": 2423.1,
     "description": "GPU de última generación para gaming y renderizado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4pqZPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 4.7,
@@ -836,7 +836,7 @@
     "title": "Radiant Cargador Inalámbrico Modelo 165",
     "price": 432.44,
     "description": "Base de carga rápida compatible con múltiples dispositivos",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UjDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.9,
@@ -849,7 +849,7 @@
     "title": "Drift Webcam HD Modelo 166",
     "price": 2258.05,
     "description": "Cámara web con resolución full HD para videollamadas nítidas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TuTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.7,
@@ -862,7 +862,7 @@
     "title": "Nexora Impresora Multifuncional Modelo 167",
     "price": 677.69,
     "description": "Impresora con escáner y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNzE4MDk2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WqDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.1,
@@ -875,7 +875,7 @@
     "title": "Quantum Micrófono USB Modelo 168",
     "price": 1069.05,
     "description": "Micrófono de condensador para streaming y grabación profesional",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjQjgzMjgwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpDwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.8,
@@ -888,7 +888,7 @@
     "title": "Orbit Silla Gamer Modelo 169",
     "price": 1661.43,
     "description": "Silla ergonómica con soporte lumbar ajustable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjOTc1QTE2Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+qkTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.9,
@@ -901,7 +901,7 @@
     "title": "Strato Power Bank Modelo 170",
     "price": 559.89,
     "description": "Batería portátil de alta capacidad con carga rápida",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UizwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.2,
@@ -914,7 +914,7 @@
     "title": "Nimbus Consola de Videojuegos Modelo 171",
     "price": 171.16,
     "description": "Consola con gráficos de última generación y almacenamiento amplio",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNkI0NkMxIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OrjwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 2.3,
@@ -927,7 +927,7 @@
     "title": "Cipher Proyector Portátil Modelo 172",
     "price": 1202.43,
     "description": "Proyector compacto con resolución HD y conexión inalámbrica",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkM3QTdCIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TvTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.7,
@@ -940,7 +940,7 @@
     "title": "Kinetic Hub USB-C Modelo 173",
     "price": 161.05,
     "description": "Adaptador multipuerto con salida HDMI y lector de tarjetas",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+UlzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.0,
@@ -953,7 +953,7 @@
     "title": "Vortex Auriculares Gamer Modelo 174",
     "price": 189.92,
     "description": "Auriculares con sonido envolvente 7.1 y micrófono desmontable",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNTUzQzlBIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.3,
@@ -966,7 +966,7 @@
     "title": "Novatech Smart TV Modelo 175",
     "price": 1021.35,
     "description": "Televisor inteligente con resolución 4K y sistema operativo integrado",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TujwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.8,
@@ -979,7 +979,7 @@
     "title": "Fusion Laptop Modelo 176",
     "price": 1455.71,
     "description": "Portátil de alto rendimiento ideal para trabajo y gaming",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjNEE1NTY4Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+SuzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 1.2,
@@ -992,7 +992,7 @@
     "title": "Helix Smartphone Modelo 177",
     "price": 1650.28,
     "description": "Teléfono inteligente con cámara avanzada y batería de larga duración",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMkI2Q0IwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+TsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.3,
@@ -1005,7 +1005,7 @@
     "title": "Vertex Auriculares Inalámbricos Modelo 178",
     "price": 526.55,
     "description": "Auriculares con cancelación de ruido y sonido envolvente",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjODA1QUQ1Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+OpzwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 3.9,
@@ -1018,7 +1018,7 @@
     "title": "Lumen Teclado Mecánico Modelo 179",
     "price": 1001.54,
     "description": "Teclado mecánico retroiluminado para gaming y productividad",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjREQ2QjIwIi8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4oyoPC90ZXh0Pgo8L3N2Zz4=",
     "rating": {
       "rate": 3.7,
@@ -1031,7 +1031,7 @@
     "title": "TechPro Mouse Gamer Modelo 180",
     "price": 804.11,
     "description": "Mouse ergonómico de alta precisión con sensor óptico",
-    "category": "electronics",
+    "category": "Electronics",
     "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgNDAwIDQwMCI+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjMzhBMTY5Ii8+Cjx0ZXh0IHg9IjIwMCIgeT0iMjMwIiBmb250LXNpemU9IjE2MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+8J+WsTwvdGV4dD4KPC9zdmc+",
     "rating": {
       "rate": 4.0,

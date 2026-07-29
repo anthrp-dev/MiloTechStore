@@ -1,3 +1,8 @@
+
+localStorage.removeItem('user');
+
+
+
 document.getElementById("loginForm").addEventListener("submit", async function(e) {
         e.preventDefault(); // Prevent form submission
 
@@ -23,8 +28,15 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             localStorage.setItem("user", JSON.stringify(userFound));
             cleanForm(); 
            
-            setTimeout(() => {
-                window.location.href = "./home.html"; // Redirect to home.html after 2 seconds
+           setTimeout(() => {
+               
+                if (userFound.rol === "Admin") {
+                 
+                    window.location.href = "../admin.html"; 
+                } else {
+                   
+                    window.location.href = "./home.html"; 
+                }
             }, 2000);
             
         }
