@@ -21,8 +21,15 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
                 // Redirect to another page or perform other actions
             localStorage.setItem("user", JSON.stringify(userFound));
            
-            setTimeout(() => {
-                window.location.href = "./home.html"; // Redirect to home.html after 2 seconds
+           setTimeout(() => {
+               
+                if (userFound.rol === "Admin") {
+                 
+                    window.location.href = "../admin.html"; 
+                } else {
+                   
+                    window.location.href = "./home.html"; 
+                }
             }, 2000);
         }
     
