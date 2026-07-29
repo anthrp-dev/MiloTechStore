@@ -23,7 +23,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             if (userFound) {
                 messageElement.textContent = "Login successful!";
                 messageElement.style.color = "green";
-                // Redirect to another page or perform other actions
+                
             localStorage.setItem("user", JSON.stringify(userFound));
            
            setTimeout(() => {
