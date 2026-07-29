@@ -1,3 +1,8 @@
+
+localStorage.removeItem('user');
+
+
+
 document.getElementById("loginForm").addEventListener("submit", async function(e) {
         e.preventDefault(); // Prevent form submission
 

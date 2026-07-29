@@ -102,6 +102,16 @@ function updateCartBadge() {
     document.querySelector("#cart-count").textContent = count;
 }
 
+history.pushState(null, null, location.href);
+
+
+window.addEventListener('popstate', function () {
+    
+    localStorage.removeItem('user');
+    
+    
+    window.location.replace('../index.html'); 
+});
 chargeUserName();
 getProducts();
 updateCartBadge();
