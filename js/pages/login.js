@@ -15,6 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
             
             if (!response.ok) {
                 throw new Error("This user does not exist.");
+               
             }
 
             const users = await response.json();
@@ -25,6 +26,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
                 messageElement.style.color = "green";
                 
             localStorage.setItem("user", JSON.stringify(userFound));
+            cleanForm(); 
            
            setTimeout(() => {
                
@@ -36,6 +38,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
                     window.location.href = "./home.html"; 
                 }
             }, 2000);
+            
         }
     
 
@@ -50,3 +53,9 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
         }
     
 });
+
+function cleanForm() {
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+    
+}
