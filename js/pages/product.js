@@ -62,7 +62,7 @@ function showProductDetails(id) {
         ${stockMessage}
         <p class="product-price">$${product.price.toFixed(2)}</p>
         <button class="btn-primary" id="add-to-cart-btn" ${product.stock === 0 ? 'disabled style="background-color: #ccc; cursor: not-allowed;"' : ''}>
-            ${product.stock === 0 ? 'Sin existencias' : 'Agregar al Carrito'}
+            ${product.stock === 0 ? 'Sin existencias' : 'Add to Cart'}
         </button>
     `;
   

@@ -42,7 +42,7 @@ function render() {
 
             <div class="class-item-info">
                 <h3>${item.product.title}</h3>
-                <p class="cart-item-price">$${item.product.price}</p>
+                <p class="cart-item-price">$${item.product.price.toFixed(2)}</p>
             </div>
             
             <div class="cart-item-quantity">
@@ -51,7 +51,7 @@ function render() {
                 <button class="qty-increase">+</button>
             </div>
 
-            <p class="cart-item-subtotal">$${item.product.price * item.quantity}</p>
+            <p class="cart-item-subtotal">$${(item.product.price * item.quantity).toFixed(2)}</p>
             <button class="cart-item-remove">Eliminar</button>
         </div>
     `).join(""); // Une todos los elementos del array en un único string HTML.
@@ -93,8 +93,24 @@ function setupEventListeners() {
     });
 }
 
+
+function chargeUserName() {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+        const objectUser = JSON.parse(savedUser);
+        const displayElement = document.getElementById('user-name-display');
+        if (displayElement) {
+            displayElement.textContent = objectUser.username;
+        }
+    } else {
+        window.location.href = "index.html";
+    }
+}
+
+
 // Inicia la carga de la página.
 init();
+chargeUserName();
 
 
 
