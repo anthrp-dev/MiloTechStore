@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MiloTechStore-Productos</title>
-    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <header class="navbar">
@@ -17,9 +18,9 @@
       </div>
 
       <div class="cart-wrapper">
-        <a href="cart.html" id="cart-btn" class="btn-cart">
+        <button id="cart-btn" class="btn-cart">
           🛒 Cart (<span id="cart-count">0</span>)
-        </a>
+        </button>
       </div>
     </header>
 
@@ -34,6 +35,7 @@
       </section>
 
     </main>
+
     <div id="product-modal" class="modal hidden">
         <div class="modal-content">
             <button id="close-modal-btn" class="close-btn">&times;</button>
@@ -43,6 +45,29 @@
             </div>
         </div>
     </div>
+    
     <script type="module" src="js/pages/product.js"></script>
+
+
+    <!-- PANEL LATERAL PARA EL CARRITO -->
+
+    <!-- Overlay que oscurece el fondo -->
+    <div id="cart-overlay" class="cart-overlay"></div>
+
+    <!-- Panel lateral -->
+     <aside id="cart-panel" class="cart-panel">
+      <div class="cart-panel-header">
+        <h2>Your cart</h2>
+        <button id="cart-close-btn" class="btn-close">✕</button>
+      </div>
+      <div id="cart-items" class="cart-panel-body">
+
+      <!-- Se llena dinámicamente con JS -->  
+      </div>
+      <div class="cart-panel-footer">
+        <a href="cart.html" class="btn-cart-full">View Full Cart</a>
+      </div>
+     </aside>
+
   </body>
 </html>

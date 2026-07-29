@@ -2,7 +2,7 @@
 // Se accede a ellas mediante cartService.nombreFuncion().
 import * as cartService from "../services/cartService.js";
 
-// Referencias a elementos del DOM que serán modificados dinámicamente.
+// Obtiene referencias a los elementos del HTML que controlan el carrito.
 const cartContainer = document.querySelector("#cart-items");
 const cartTotal = document.querySelector("#cart-total");
 const cartEmpty = document.querySelector("#cart-empty");
@@ -106,7 +106,6 @@ function chargeUserName() {
         window.location.href = "index.html";
     }
 }
-
 
 // Inicia la carga de la página.
 init();

@@ -1,5 +1,9 @@
 import { getCartItemCount } from "../utils/storage.js";
 import * as cartService from "../services/cartService.js";
+const cartBtn = document.getElementById("cart-btn");
+const cartPanel = document.getElementById("cart-panel");
+const cartOverlay = document.getElementById("cart-overlay");
+const cartCloseBtn = document.getElementById("cart-close-btn");
 
 let productsList = [];
 
@@ -74,10 +78,10 @@ function showProductDetails(id) {
 
     // conexión con el botón "Add to cart"
     document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
-        await cartService.init();
+        
         cartService.addToCart(product, 1);
         updateCartBadge();
-
+        renderCartPanel();
         alert("Product added to the cart");
         modal.classList.add("hidden");
     });
@@ -102,6 +106,54 @@ function updateCartBadge() {
     document.querySelector("#cart-count").textContent = count;
 }
 
-chargeUserName();
-getProducts();
-updateCartBadge();
+
+// Abre el panel lateral del carrito.
+function openCartPanel() {
+    renderCartPanel();      // Antes de mostrar el carrito, actualiza su contenido.
+    cartPanel.classList.add("open");        // Agrega la clase "open" para ejecutar los estilos CSS del panel abierto.
+    cartOverlay.classList.add("open");      // Hace visible el fondo oscuro (overlay).
+}
+
+// Cierra el panel del carrito.
+function closeCartPanel() {
+    cartPanel.classList.remove("open");     // Elimina la clase "open", haciendo que el panel vuelva a ocultarse.
+    cartOverlay.classList.remove("open");       // Oculta el fondo oscuro.
+}
+
+// Genera dinámicamente el contenido del carrito.
+function renderCartPanel() {
+    const items = cartService.getCartItems();       // Obtiene los productos almacenados en el carrito.
+    const container = document.getElementById("cart-items");        // Obtiene el contenedor donde se mostrarán los productos.
+    
+    // Recorre cada producto y genera su HTML.
+    container.innerHTML = items.map(item => `
+        <div class="cart-panel-item">
+            <span>${item.product.title}</span>
+            <span>x${item.quantity}</span>
+        </div>
+       `).join("");     // Une todos los elementos HTML en un solo string.
+}
+
+// Cuando el usuario hace click en el botón del carrito,
+// se abre el panel lateral.
+cartBtn?.addEventListener("click", openCartPanel);
+
+// Cuando hace click en la X,
+// se cierra el panel.
+cartCloseBtn?.addEventListener("click", closeCartPanel);
+
+// Si hace click sobre el fondo oscuro (overlay),
+// también se cierra el carrito.
+cartOverlay?.addEventListener("click", closeCartPanel);
+
+
+async function initPage() {
+    await cartService.init();   // Carga el carrito desde localStorage
+
+    chargeUserName();
+    await getProducts();
+
+    updateCartBadge();
+}
+
+initPage();

@@ -44,3 +44,86 @@
 .close-btn:hover {
     color: #111;
 }
+
+/* ===========================
+   FONDO OSCURO DETRÁS DEL CARRITO
+   (Overlay)
+   =========================== */
+
+.cart-overlay {
+    position: fixed;        /* Se mantiene fijo aunque la página haga scroll */
+    inset: 0;        /* Ocupa toda la pantalla. */
+    background: rgba(0, 0, 0, 0.4);     /* Fondo negro con 40% de transparencia */
+    opacity: 0;     /* Inicialmente es invisible */
+    pointer-events: none;        /* Mientras esté oculto no permite hacer clic sobre él */
+    transition: opacity 0.3s ease;      /* Anima el cambio de opacidad */
+    z-index: 100;       /* Se dibuja sobre casi todo el contenido */
+}
+
+/* ===========================
+   PANEL LATERAL DEL CARRITO
+   =========================== */
+
+.cart-panel {
+    position: fixed;        /* Permanece fijo en la pantalla */
+    top: 0;     /* Pegado a la parte superior */
+    right: 0;       /* Pegado al lado derecho */
+    height: 100%;       /* Ocupa toda la altura de la ventana */
+    width: 360px;       /* Ancho del panel */
+    max-width: 90dvw;       /* En pantallas pequeñas nunca ocupará más del 90% del ancho */
+    background: #fff;       /* Fondo blanco */
+    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.2);     /* Sombra hacia la izquierda para dar efecto de profundidad */
+    transform: translateX(100%);        /* Inicialmente está desplazado completamente fuera de la pantalla */
+    transition: transform 0.3s ease;        /* Anima el movimiento del panel */
+    z-index: 101;       /* Debe quedar encima del overlay */
+    display: flex;      /* Organiza su contenido con Flexbox */
+    flex-direction: column;     /* Header, body y footer se colocan uno debajo del otro */
+}
+
+/* ===========================
+   ESTADO ABIERTO DEL OVERLAY
+   =========================== */
+
+.cart-overlay.open {
+    opacity: 1;     /* Hace visible el overlay */
+    pointer-events: auto;       /* Ahora sí permite hacer clic sobre él */
+}
+
+/* ===========================
+   ESTADO ABIERTO DEL PANEL
+   =========================== */
+
+.cart-panel.open {
+    transform: translateX(0);       /* Mueve el panel hasta su posición visible */
+}
+
+/* ===========================
+   CABECERA DEL PANEL
+   =========================== */
+
+.cart-panel-header {
+    display: flex;      /* Acomoda el título y el botón X en una fila */
+    justify-content: space-between;     /* Los separa hacia los extremos */
+    align-items: center;        /* Los centra verticalmente */
+    padding: 1rem;      /* Espaciado interno */
+    border-bottom: 1px solid #eee       /* Línea inferior para separar del contenido */
+}
+
+/* ===========================
+   CUERPO DEL PANEL
+   =========================== */
+
+.cart-panel-body {
+    flex: 1;        /* Ocupa todo el espacio disponible entre header y footer */
+    overflow-y: auto;       /* Si hay muchos productos aparece scroll vertical */
+    padding: 1rem;      /* Espaciado interno */
+}
+
+/* ===========================
+   PIE DEL PANEL
+   =========================== */
+
+.cart-panel-footer {
+    padding: 1rem;      /* Espaciado interno */
+    border-top: 1px solid #eee;     /* Línea superior para separarlo del contenido */
+}
