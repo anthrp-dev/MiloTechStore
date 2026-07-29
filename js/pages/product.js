@@ -82,25 +82,23 @@ function showProductDetails(id) {
         modal.classList.add("hidden");
     });
 
-
-    function chargeUserName()
-    {
-        const savedUser= localStorage.getItem('user');
-        if(savedUser)
-        {
-            const objectUser=JSON.parse(savedUser)
-            const displayElement=document.getElementById('user-name-display');
-            if(displayElement){
-                displayElement.textContent=objectUser.username;
-            }
-        }else{
-            window.location.href="index.html"
+function chargeUserName() {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+        const objectUser = JSON.parse(savedUser);
+        const displayElement = document.getElementById('user-name-display');
+        if (displayElement) {
+            displayElement.textContent = objectUser.username;
         }
+    } else {
+        window.location.href = "index.html";
     }
+}
+    
 
 function updateCartBadge() {
     const count = getCartItemCount();
-    document.querySelector("#cart-count").textContent = count
+    document.querySelector("#cart-count").textContent = count;
 }
 
 chargeUserName();
