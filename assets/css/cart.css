@@ -6,7 +6,8 @@
     padding: 0 2rem 4rem 2rem;      /* Espaciado interno (arriba, derecha, abajo, izquierda) */
 }
 
-/* Se muestra únicamente cuando el carrito no tiene productos *
+/* Se muestra únicamente cuando el carrito no tiene productos */
+
 .cart-empty {
     background: #ffffff;
     padding: 3rem;
