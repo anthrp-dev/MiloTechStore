@@ -153,6 +153,7 @@ body {
 .btn-primary:active {
     transform: scale(0.98);
 }
+<<<<<<< HEAD
 
 .modal {
     position: fixed;
@@ -197,4 +198,58 @@ body {
 
 .close-btn:hover {
     color: #111;
+=======
+/* =========================================
+   ESTILOS DEL FORMULARIO DE ADMINISTRADOR
+   ========================================= */
+
+.form-grid {
+    display: grid;
+    /* Crea dos columnas del mismo tamaño. Si estás en celular, cambia a 1 columna */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Para campos que necesitan abarcar ambas columnas (Imagen y Descripción) */
+.full-width {
+    grid-column: 1 / -1; 
+}
+
+/* Ordena la etiqueta arriba y el input abajo */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Diseño de las cajas de texto */
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background-color: #fafafa;
+    /* box-sizing evita que el padding haga que el input se salga del modal */
+    box-sizing: border-box; 
+    transition: all 0.2s ease-in-out;
+}
+
+/* Efecto al hacer clic en la caja de texto (Focus) */
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #1b5e20;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(27, 94, 32, 0.1); 
+>>>>>>> 36dbf7e265c32f196da62a02c557993d01e06f75
 }
