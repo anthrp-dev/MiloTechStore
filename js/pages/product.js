@@ -1,8 +1,11 @@
 import { getCartItemCount } from "../utils/storage.js";
 import * as cartService from "../services/cartService.js";
-const cartBtn = document.getElementById("cart-btn");
-const cartPanel = document.getElementById("cart-panel");
+
 const cartOverlay = document.getElementById("cart-overlay");
+const cartPanel = document.getElementById("cart-panel");
+const cartPanelBody = document.getElementById("cart-items")
+const cartPanelTotal = document.getElementById("panel-cart-total")
+const cartBtn = document.getElementById("cart-btn");
 const cartCloseBtn = document.getElementById("cart-close-btn");
 
 let productsList = [];
@@ -79,9 +82,11 @@ function showProductDetails(id) {
     // conexión con el botón "Add to cart"
     document.getElementById("add-to-cart-btn")?.addEventListener("click", async () => {
         
+        await cartService.init();
         cartService.addToCart(product, 1);
         updateCartBadge();
         renderCartPanel();
+
         alert("Product added to the cart");
         modal.classList.add("hidden");
     });
@@ -120,20 +125,6 @@ function closeCartPanel() {
     cartOverlay.classList.remove("open");       // Oculta el fondo oscuro.
 }
 
-// Genera dinámicamente el contenido del carrito.
-function renderCartPanel() {
-    const items = cartService.getCartItems();       // Obtiene los productos almacenados en el carrito.
-    const container = document.getElementById("cart-items");        // Obtiene el contenedor donde se mostrarán los productos.
-    
-    // Recorre cada producto y genera su HTML.
-    container.innerHTML = items.map(item => `
-        <div class="cart-panel-item">
-            <span>${item.product.title}</span>
-            <span>x${item.quantity}</span>
-        </div>
-       `).join("");     // Une todos los elementos HTML en un solo string.
-}
-
 // Cuando el usuario hace click en el botón del carrito,
 // se abre el panel lateral.
 cartBtn?.addEventListener("click", openCartPanel);
@@ -146,6 +137,66 @@ cartCloseBtn?.addEventListener("click", closeCartPanel);
 // también se cierra el carrito.
 cartOverlay?.addEventListener("click", closeCartPanel);
 
+// Genera dinámicamente el contenido del carrito.
+async function renderCartPanel() {
+
+    await cartService.init();
+    const cartItems = cartService.getCartItems();           // Obtiene el contenedor donde se mostrarán los productos.
+    
+    if (cartItems.length === 0) {
+        cartPanelBody.innerHTML = `<p class="cart-panel-empty">Your cart is empty</p>`;
+        cartPanelTotal.innerHTML = "$0.00";
+        return;
+    }
+
+    // Recorre cada producto y genera su HTML.
+    cartPanelBody.innerHTML = cartItems.map(item => `
+        <div class="cart-panel-item" data-id="${item.product.id}">
+            <img src="${item.product.image}" alt="${item.product.title}">
+            <div class="cart-panel-item-info">
+                <h4>${item.product.title}</h4>
+                <p class="cart-panel-item-price">$${(item.product.price * item.quantity).toFixed(2)}</p>
+                <div class="cart-panel-item-quantity">
+                    <button class="panel-qty-decrease">-</button>
+                    <span>${item.quantity}</span>
+                    <button class="panel-qty-increase">+</button>
+                </div>
+            </div>
+            <button class="cart-panel-item-remove">✕</button>
+        </div>
+    `).join("");     // Une todos los elementos HTML en un solo string.
+
+    cartPanelTotal.textContent = `$${cartService.calculateTotal().toFixed(2)}`;
+}
+
+cartPanelBody.addEventListener("click", async (event) => {
+    const cartPanelItemElement = event.target.closest(".cart-panel-item");
+
+    if (!cartPanelItemElement) return;
+
+    const productId = Number(cartPanelItemElement.dataset.id);
+    const currentItem = cartService.getCartItems().find(
+        item => item.product.id === productId
+    );
+
+    if (event.target.classList.contains("panel-qty-increase")) {
+        cartService.updateQuantity(productId, currentItem.quantity + 1);
+        renderCartPanel();
+        updateCartBadge();
+    }
+
+    if (event.target.classList.contains("panel-qty-decrease")) {
+        cartService.updateQuantity(productId, currentItem.quantity - 1);
+        renderCartPanel();
+        updateCartBadge();
+    }
+
+        if (event.target.classList.contains("cart-panel-item-remove")) {
+        cartService.removeFromCart(productId);
+        renderCartPanel();
+        updateCartBadge();
+    }
+});
 
 async function initPage() {
     await cartService.init();   // Carga el carrito desde localStorage
