@@ -61,6 +61,72 @@
     </div>
 </main>
 
+<div id="checkout-modal" class="modal hidden">
+    <!-- Caja principal que contiene todo el contenido del modal -->
+    <div class="modal-content checkout-modal-content">
+        <!-- Botón para cerrar el modal -->
+        <!-- &times; es la entidad HTML que representa el símbolo × -->
+        <button id="close-checkout-btn" class="close-btn">&times</button>
+
+        <!-- Formulario -->
+         <div id="checkout-form-view">
+            <h2 class="title">Checkout</h2>
+             <!--
+                novalidate:
+                Desactiva la validación automática del navegador.
+                La validación será realizada mediante JavaScript.
+            -->
+            <form id="checkout-form" novalidate>
+
+                <div class="form-group">
+                    <label for="cardholder-name">Cardholder Name</label>
+                    <input type="text" id="cardholder-name" placeholder="Jane Doe" autocomplete="off">
+                    <span class="form-error" id="error-name"></span>    
+                </div>
+
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" maxlength="19" autocomplete="off">
+                    <span class="form-error" id="error-card"></span>    
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="card-expiry">Expiry</label>
+                        <input type="text" id="card-expiry" placeholder="MM/YY" maxlength="5" autocomplete="off">
+                        <span class="form-error" id="error-expiry"></span>    
+                    </div>
+
+                    <div class="form-group">
+                        <label for="card-cvv">CVV</label>
+                        <input type="text" id="card-cvv" placeholder="123" maxlength="3" autocomplete="off">
+                        <span class="form-error" id="error-cvv"></span>
+                    </div>
+                </div>
+
+                <div class="checkout-total-row">
+                    <span>Total</span>
+                    <span id="checkout-modal-total">$0.00</span>
+                </div>
+
+                <button type="submit" class="btn-primary">Pay Now</button>
+            </form>
+         </div>
+
+         <div id="checkout-processing-view" class="hidden checkout-status-view">
+            <div class="spinner"></div>
+            <p>Processing payment...</p>
+         </div>
+
+         <div id="checkout-success-view" class="hidde checkout-status-view">
+            <div class="success-icon">✔</div>
+            <h2>Payment Successful!</h2>
+            <p id="order-number" class="order-number"></p>
+            <p>Thank you for your purchase.</p>
+         </div>
+    </div>
+</div>
+
 <!-- Script principal de la página del carrito -->
 <script type="module" src="js/pages/cart.js"></script>
 </body>

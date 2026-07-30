@@ -9,6 +9,13 @@ const cartEmpty = document.querySelector("#cart-empty");
 const cartContent = document.querySelector("#cart-content");
 const clearBtn = document.querySelector("#clear-cart-btn");
 const checkoutBtn = document.querySelector("#checkout-btn");
+const checkoutModal = document.querySelector("#checkout-modal");
+const closeCheckoutBtn = document.querySelector("#close-checkout-btn");
+const checkoutFormView = document.querySelector("#checkout-form-view");
+const checkoutProcessingView = document.querySelector("#checkout-processing-view");
+const checkoutSuccessView = document.querySelector("#checkout-success-view");
+const checkoutForm = document.querySelector("#checkout-form");
+const checkoutModalTotal = document.querySelector("#checkout-modal-total");
 
 // Punto de entrada de la página.
 // Inicializa el servicio y luego dibuja el carrito.
@@ -94,15 +101,9 @@ function setupEventListeners() {
     });
 
     checkoutBtn.addEventListener("click", () => {
-        const cartItems = cartService.getCartItems();
-
-        if (cartItems.length === 0) return;
-
-        const total = cartService.calculateTotal().toFixed(2);
-        alert(`Thank you for your purchase!\nTotal charged: $${total}`);
-
-        cartService.clearCartItems();
-        render();
+        
+        if (cartService.getCartItems().length === 0) return;
+        openCheckoutModal();
     });
 }
 
@@ -119,6 +120,20 @@ function chargeUserName() {
     }
 }
 
+function openCheckoutModal() {
+   checkoutFormView.classList.remove("hidden");
+    checkoutProcessingView.classList.add("hidden");
+    checkoutSuccessView.classList.add("hidden");
+
+    checkoutModalTotal.textContent = `$${cartService.calculateTotal().toFixed(2)}`;
+    checkoutModal.classList.remove("hidden");
+}
+
+function closeCheckoutModal() {
+    checkoutModal.classList.add("hidden");
+}
+
+closeCheckoutBtn.addEventListener("click", closeCheckoutModal);
 
 // Inicia la carga de la página.
 init();
