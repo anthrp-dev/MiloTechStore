@@ -26,36 +26,39 @@
    </div>
 
    <!-- Botón para regresar al catálogo de productos -->
-   <a href="home.html" class="btn-cart">←Contunie shopping</a>
+   <a href="home.html" class="btn-cart">←Continue shopping</a>
    </header>
 
    <!-- Contenido principal de la página -->
-    <main class="cart-wrapper-page">
-        <!-- Encabezado del carrito -->
-        <div class="header-text">
-            <h1 class="title">Your cart</h1>
-            <p class="subtitle">Review your products before checking out.</p>
-        </div>
-    <!-- Se muestra únicamente cuando el carrito no contiene productos -->
-    <div id="cart-empty" class="class-empty-hidden">
+<main class="cart-wrapper-page">
+    
+    <div class="header-text">
+        <h1 class="title">Your cart</h1>
+        <p class="subtitle">Review your products before checking out.</p>
+    </div>
+
+    <div id="cart-empty" class="cart-empty hidden">
         <p>Your cart is empty.</p>
-        <!-- Enlace para volver al catálogo -->
         <a href="home.html" class="btn-primary">View products</a>
     </div>
 
-    <!-- Contenedor donde JavaScript inserta dinámicamente los productos -->
-     <section id="cart-items" class="cart-list"></section>
+    <div id="cart-content" class="cart-layout hidden">
+        <!-- Columna izquierda: lista de productos -->
+        <section id="cart-items" class="cart-list"></section>
 
-     <!-- Resumen del carrito (total y acciones) -->
-     <div id="cart-summary" class="cart-summary hidden">
-        <!-- Muestra el monto total de la compra -->
-        <div class="summary-row">
-            <span>Total</span>
-            <span id="cart-total">$0.00</span>
-        </div>
-        
-        <button id="clear-cart-btn" class="btn-secondary">Clear cart</button>
-     </div>
+        <!-- Columna derecha: resumen fijo -->
+        <aside class="cart-summary">
+            <h2 class="summary-title">Order Summary</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span id="cart-total">$0.00</span>
+            </div>
+
+            <button id="checkout-btn" class="btn-primary">Checkout</button>
+            <button id="clear-cart-btn" class="btn-secondary">Clear cart</button>
+        </aside>
+    </div>
 </main>
 
 <!-- Script principal de la página del carrito -->

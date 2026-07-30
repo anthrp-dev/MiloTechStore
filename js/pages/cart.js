@@ -6,8 +6,9 @@ import * as cartService from "../services/cartService.js";
 const cartContainer = document.querySelector("#cart-items");
 const cartTotal = document.querySelector("#cart-total");
 const cartEmpty = document.querySelector("#cart-empty");
-const cartSummary = document.querySelector("#cart-summary");
-const clearBtn = document.querySelector("#clear-cart-btn")
+const cartContent = document.querySelector("#cart-content");
+const clearBtn = document.querySelector("#clear-cart-btn");
+const checkoutBtn = document.querySelector("#checkout-btn");
 
 // Punto de entrada de la página.
 // Inicializa el servicio y luego dibuja el carrito.
@@ -27,20 +28,20 @@ function render() {
     if (cartItems.length === 0) {
         cartContainer.innerHTML = "";   // Limpia productos anteriores.
         cartEmpty.classList.remove("hidden");   // Muestra el mensaje "carrito vacío".
-        cartSummary.classList.add("hidden");    // Oculta el resumen y el total.
+        cartContent.classList.add("hidden");    // Oculta el resumen y el total.
         return;
     }
 
     // Si hay productos, oculta el mensaje de vacío y muestra el resumen.
     cartEmpty.classList.add("hidden");
-    cartSummary.classList.remove("hidden");
+    cartContent.classList.remove("hidden");
 
     // Genera dinámicamente el HTML de cada producto del carrito.
     cartContainer.innerHTML = cartItems.map(item => `
         <div class="cart-item" data-id="${item.product.id}">
             <img src="${item.product.image}" alt="${item.product.title}">
-
-            <div class="class-item-info">
+            
+            <div class="cart-item-info">
                 <h3>${item.product.title}</h3>
                 <p class="cart-item-price">$${item.product.price.toFixed(2)}</p>
             </div>
@@ -50,9 +51,9 @@ function render() {
                 <span>${item.quantity}</span>
                 <button class="qty-increase">+</button>
             </div>
-
+            
             <p class="cart-item-subtotal">$${(item.product.price * item.quantity).toFixed(2)}</p>
-            <button class="cart-item-remove">Eliminar</button>
+            <button class="cart-item-remove">🗑</button>
         </div>
     `).join(""); // Une todos los elementos del array en un único string HTML.
 
@@ -91,8 +92,19 @@ function setupEventListeners() {
         cartService.clearCartItems();
         render();
     });
-}
 
+    checkoutBtn.addEventListener("click", () => {
+        const cartItems = cartService.getCartItems();
+
+        if (cartItems.length === 0) return;
+
+        const total = cartService.calculateTotal().toFixed(2);
+        alert(`Thank you for your purchase!\nTotal charged: $${total}`);
+
+        cartService.clearCartItems();
+        render();
+    });
+}
 
 function chargeUserName() {
     const savedUser = localStorage.getItem('user');
@@ -106,6 +118,7 @@ function chargeUserName() {
         window.location.href = "index.html";
     }
 }
+
 
 // Inicia la carga de la página.
 init();
