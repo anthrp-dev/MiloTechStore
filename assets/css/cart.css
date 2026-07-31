@@ -220,7 +220,7 @@ display: none;
    =========================== */
 
 .checkout-modal-content {
-    max-width: 420px;      /* Limita el ancho máximo del modal */
+    max-width: 650px;      /* Limita el ancho máximo del modal */
 }
 
 
