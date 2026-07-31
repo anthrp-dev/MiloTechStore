@@ -1,6 +1,7 @@
 // Importa todas las funciones relacionadas con el carrito.
 // Se accede a ellas mediante cartService.nombreFuncion().
 import * as cartService from "../services/cartService.js";
+import { formatCardNumber, formatExpiry, formatCvv, validateCheckoutData } from "../utils/validators.js";
 
 // Obtiene referencias a los elementos del HTML que controlan el carrito.
 const cartContainer = document.querySelector("#cart-items");
@@ -16,6 +17,9 @@ const checkoutProcessingView = document.querySelector("#checkout-processing-view
 const checkoutSuccessView = document.querySelector("#checkout-success-view");
 const checkoutForm = document.querySelector("#checkout-form");
 const checkoutModalTotal = document.querySelector("#checkout-modal-total");
+const cardNumberInput = document.querySelector("#card-number");
+const cardExpiryInput = document.querySelector("#card-expiry");
+const cardCvvInput = document.querySelector("#card-cvv");
 
 // Punto de entrada de la página.
 // Inicializa el servicio y luego dibuja el carrito.
@@ -134,6 +138,91 @@ function closeCheckoutModal() {
 }
 
 closeCheckoutBtn.addEventListener("click", closeCheckoutModal);
+
+cardNumberInput.addEventListener("input", () => {
+    cardNumberInput.value = formatCardNumber(cardNumberInput.value);
+});
+
+cardExpiryInput.addEventListener("input", () => {
+    cardExpiryInput.value = formatExpiry(cardExpiryInput.value);
+});
+
+cardCvvInput.addEventListener("input", () => {
+    cardCvvInput.value = formatCvv(cardCvvInput.value);
+});
+
+function validateCheckoutForm() {
+    const nameInput = document.querySelector("#cardholder-name");
+    const errorName = document.querySelector("#error-name");
+    const errorCard = document.querySelector("#error-card");
+    const errorExpiry = document.querySelector("#error-expiry");
+    const errorCvv = document.querySelector("#error-cvv");
+
+    // Limpieza de errores previos
+    [nameInput, cardNumberInput, cardExpiryInput, cardCvvInput].forEach(input =>
+        input.classList.remove("invalid")
+    );
+
+    [errorName, errorCard, errorExpiry, errorCvv].forEach(element =>
+        element.textContent = ""
+    );
+
+    // Obtenemos de validator.js el resultado de cada regla
+    const result = validateCheckoutData({
+        name: nameInput.value,
+        cardNumber: cardNumberInput.value,
+        expiry: cardExpiryInput.value,
+        cvv: cardCvvInput.value
+    });
+
+    // Mensajes de error
+
+    if (!result.name) {
+        errorName.textContent = "Enter your full name";
+        nameInput.classList.add("invalid");
+    }
+
+    if (!result.cardNumber) {
+        errorCard.textContent = "Card number must have 16 digits";
+        cardNumberInput.classList.add("invalid");
+    }
+
+    if (!result.expiry) {
+        errorExpiry.textContent = "Use MM/YY format";
+        cardExpiryInput.classList.add("invalid");
+    }
+
+    if (!result.cvv) {
+        errorCvv.textContent = "CVV must have 3 digits";
+        cardCvvInput.classList.add("invalid");
+    }
+
+    return result.name && result.cardNumber && result.expiry && result.cvv;
+}
+
+checkoutForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    if (!validateCheckoutForm()) return;
+
+    checkoutFormView.classList.add("hidden");
+    checkoutProcessingView.classList.remove("hidden");
+
+    setTimeout(() => {
+        checkoutProcessingView.classList.add("hidden");
+        checkoutSuccessView.classList.remove("hidden");
+
+        const orderNumber = "MS-" + Math.floor(10000 + Math.random() * 90000);
+        document.querySelector("#order-number").textContent = `Order #${orderNumber}`;
+
+        cartService.clearCartItems();
+
+        setTimeout(() => {
+            window.location.href = "home.html";
+        }, 2500);
+        
+    }, 2000);
+})
 
 // Inicia la carga de la página.
 init();
