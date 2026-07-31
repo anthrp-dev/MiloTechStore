@@ -50,7 +50,9 @@ function render() {
     // Genera dinámicamente el HTML de cada producto del carrito.
     cartContainer.innerHTML = cartItems.map(item => `
         <div class="cart-item" data-id="${item.product.id}">
-            <img src="${item.product.image}" alt="${item.product.title}">
+            <img class="cart-img"
+            src="${item.product.image}"
+            alt="${item.product.title}">
             
             <div class="cart-item-info">
                 <h3>${item.product.title}</h3>
