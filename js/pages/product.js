@@ -1,7 +1,7 @@
 import { getCartItemCount } from "../utils/storage.js";
 import * as cartService from "../services/cartService.js";
 
-// DOM elements related to the cart panel
+
 const cartOverlay = document.getElementById("cart-overlay");
 const cartPanel = document.getElementById("cart-panel");
 const cartPanelBody = document.getElementById("cart-items")
@@ -89,7 +89,7 @@ function showProductDetails(id) {
     });
 }
 
-function chargeUserName() {
+function loadUserName() {
     const savedUser = localStorage.getItem('user');
     if (savedUser) {
         const objectUser = JSON.parse(savedUser);
@@ -102,7 +102,6 @@ function chargeUserName() {
     }
 }
     
-// --- CORRECCIÓN 1: Proteger el Badge del Carrito ---
 function updateCartBadge() {
     const count = getCartItemCount();
     const badgeElement = document.querySelector("#cart-count");
@@ -127,7 +126,7 @@ cartCloseBtn?.addEventListener("click", closeCartPanel);
 cartOverlay?.addEventListener("click", closeCartPanel);
 
 async function renderCartPanel() {
-    // --- CORRECCIÓN 2: Proteger la inyección del carrito ---
+    
     if (!cartPanelBody || !cartPanelTotal) return;
 
     await cartService.init();
@@ -189,7 +188,7 @@ cartPanelBody?.addEventListener("click", async (event) => {
 
 async function initPage() {
     await cartService.init();   
-    chargeUserName();
+    loadUserName();
     await getProducts();
     updateCartBadge();
 }
