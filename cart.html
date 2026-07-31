@@ -62,18 +62,25 @@
 </main>
 
 <div id="checkout-modal" class="modal hidden">
+    <!-- Caja principal que contiene todo el contenido del modal -->
     <div class="modal-content checkout-modal-content">
-        <button id="close-checkout-btn" class="close-btn">;</button>
+        <!-- Botón para cerrar el modal -->
+        <!-- &times; es la entidad HTML que representa el símbolo × -->
+        <button id="close-checkout-btn" class="close-btn">&times</button>
 
         <!-- Formulario -->
          <div id="checkout-form-view">
             <h2 class="title">Checkout</h2>
-
+             <!--
+                novalidate:
+                Desactiva la validación automática del navegador.
+                La validación será realizada mediante JavaScript.
+            -->
             <form id="checkout-form" novalidate>
 
                 <div class="form-group">
                     <label for="cardholder-name">Cardholder Name</label>
-                    <input type="text" id="cardholder-name" placeholder="Jane Doe" autocomplete="off">
+                    <input type="text" id="cardholder-name" placeholder="John Doe" autocomplete="off">
                     <span class="form-error" id="error-name"></span>    
                 </div>
 
@@ -106,8 +113,17 @@
             </form>
          </div>
 
-         
+         <div id="checkout-processing-view" class="hidden checkout-status-view">
+            <div class="spinner"></div>
+            <p>Processing payment...</p>
+         </div>
 
+         <div id="checkout-success-view" class="hidde checkout-status-view">
+            <div class="success-icon">✔</div>
+            <h2>Payment Successful!</h2>
+            <p id="order-number" class="order-number"></p>
+            <p>Thank you for your purchase.</p>
+         </div>       
     </div>
 </div>
 
