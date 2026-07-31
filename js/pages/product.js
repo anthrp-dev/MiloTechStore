@@ -8,6 +8,7 @@ const cartPanelBody = document.getElementById("cart-items")
 const cartPanelTotal = document.getElementById("panel-cart-total")
 const cartBtn = document.getElementById("cart-btn");
 const cartCloseBtn = document.getElementById("cart-close-btn");
+const cartCountBadge = document.getElementById("logout-btn");
 
 let productsList = [];
 
@@ -22,6 +23,12 @@ async function getProducts() {
         console.error('Error fetching products:', error);
     }
 }
+
+logout-btn.addEventListener("click", () => {
+    localStorage.removeItem("user");
+    sessionStorage.clear();
+    window.location.href = "index.html";
+});
 
 function renderCatalog(products) { 
     const container = document.getElementById('product-container');
