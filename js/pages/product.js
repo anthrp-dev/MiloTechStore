@@ -9,6 +9,7 @@ const cartPanelTotal = document.getElementById("panel-cart-total")
 const cartBtn = document.getElementById("cart-btn");
 const cartCloseBtn = document.getElementById("cart-close-btn");
 
+
 let productsList = [];
 
 async function getProducts() {
@@ -22,6 +23,8 @@ async function getProducts() {
         console.error('Error fetching products:', error);
     }
 }
+
+
 
 function renderCatalog(products) { 
     const container = document.getElementById('product-container');
