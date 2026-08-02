@@ -1,55 +1,51 @@
-
-localStorage.removeItem('user');
-
-
+import { login } from "../services/authService.js";
+import { showToast } from "../utils/notifications.js";
 
 document.getElementById("loginForm").addEventListener("submit", async function(e) {
         e.preventDefault(); // Prevent form submission
 
-        const username = document.getElementById("username").value;
+        const username = document.getElementById("username").value.trim();
         const password = document.getElementById("password").value;
         const messageElement = document.getElementById("message");
 
         try {
-           const response = await fetch("assets/data/user.json");
+
+           const result = await login(username, password);
             
-            if (!response.ok) {
-                throw new Error("This user does not exist.");
-               
+            if (!result.ok) {
+
+            messageElement.textContent = result.data.message;
+            messageElement.style.color = "red";
+
+            return;
             }
 
-            const users = await response.json();
-            const userFound = users.find(u => u.username === username && u.password === password);
+            const user = result.data;
 
-            if (userFound) {
-                messageElement.textContent = "Login successful!";
-                messageElement.style.color = "green";
-                
-            localStorage.setItem("user", JSON.stringify(userFound));
-            cleanForm(); 
-           
-           setTimeout(() => {
-               
-                if (userFound.rol === "Admin") {
-                 
-                    window.location.href = "../admin.html"; 
+            messageElement.textContent = "Login successful!";
+            messageElement.style.color = "green";
+            showToast("Welcome back!");
+
+            localStorage.removeItem('user');
+
+            localStorage.setItem("user", JSON.stringify(user));
+
+            cleanForm();
+
+            setTimeout(() => {
+
+                if (user.roleId === 2) {
+                    window.location.href = "./admin.html";
                 } else {
-                   
-                    window.location.href = "./home.html"; 
+                    window.location.href = "/home.html";
                 }
             }, 2000);
-            
         }
-    
-
-        else {
-            messageElement.textContent = "Invalid username or password.";
-            messageElement.style.color = "red";
-        }
-    }
+        
         catch (error) {
-            messageElement.textContent = error.message;
-            messageElement.style.color = "red";
+
+            console.error("Login error:", error);
+            showToast("Invalid username or password", "error");
         }
     
 });

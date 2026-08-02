@@ -1,6 +1,8 @@
 // Importa todas las funciones relacionadas con el carrito.
 // Se accede a ellas mediante cartService.nombreFuncion().
 import * as cartService from "../services/cartService.js";
+import * as productService from "../services/productService.js";
+import { showToast } from "../utils/notifications.js";
 import { formatCardNumber, formatExpiry, formatCvv, validateCheckoutData } from "../utils/validators.js";
 
 // Obtiene referencias a los elementos del HTML que controlan el carrito.
@@ -103,13 +105,15 @@ function setupEventListeners() {
         }
 
         if (event.target.classList.contains("cart-item-remove")) {      
-            cartService.removeFromCart(productId);      // elimina completamente el producto.
-            render();
+        cartService.removeFromCart(productId);
+        showToast("🗑 Product removed from cart");
+        render();
         }
     });
 
-    clearBtn.addEventListener("click", () => {      // Vacía completamente el carrito.
+    clearBtn.addEventListener("click", () => {
         cartService.clearCartItems();
+        showToast("Cart cleared");
         render();
     });
 
@@ -239,10 +243,27 @@ function validateCheckoutForm() {
 // ENVÍO DEL FORMULARIO
 // ===========================
 
-checkoutForm.addEventListener("submit", (event) => {        // Evita que el formulario recargue la página.
+checkoutForm.addEventListener("submit", async (event) => {        // Evita que el formulario recargue la página.
     event.preventDefault();
 
     if (!validateCheckoutForm()) return;        // Si hay errores, detiene el proceso.
+
+    const cartItems = cartService.getCartItems();
+
+
+    const stockItems = cartItems.map(item => ({
+        productId: item.product.id,
+        quantity: item.quantity
+    }));
+
+
+    const stockUpdated = await productService.reduceStock(stockItems);
+
+
+    if (!stockUpdated) {
+        showToast("Not enough stock available", "error");
+        return;
+    }
 
     checkoutFormView.classList.add("hidden");       // Oculta el formulario.
     checkoutProcessingView.classList.remove("hidden");      // Muestra la vista de procesamiento.
