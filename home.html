@@ -1,85 +1,93 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MiloTechStore-Productos</title>
-    <link rel="stylesheet" href="assets/css/home.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="brand-header">
-        <span class="brand-name">MiloTechStore</span>
-      </div>
 
-      <div class="welcome-message">
-        <span>Welcome, <strong id="user-name-display">User</strong></span>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiloTechStore-Productos</title>
+  <link rel="stylesheet" href="assets/css/home.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-      <div class="cart-panel-total">
-      <button id="logout-btn" class="btn-logout">
-           Log out 
-        </button>
-        </div>
+<div id="toast" class="toast">
+    <span id="toast-icon">✅</span>
+    <span id="toast-message"></span>
+</div>
 
-      <div class="cart-wrapper">
-        <button id="cart-btn" class="btn-cart">
-          🛒 Cart (<span id="cart-count">0</span>)
-        </button>
-      </div>
-    </header>
+<body>
+  <header class="navbar">
 
-    <main class="catalog-wrapper">
-      <div class="header-text">
-        <h1 class="title">Our Products</h1>
-        <p class="subtitle">Explore the best in technology.</p>
-      </div>
-
-      <section id="product-container" class="product-grid">
-        <!-- The products will be dynamically inserted here -->
-      </section>
-
-    </main>
-
-    <div id="product-modal" class="modal hidden">
-        <div class="modal-content">
-            <button id="close-modal-btn" class="close-btn">&times;</button>
-            
-            <div id="modal-details" class="modal-body">
-           <!--here the product details will be dynamically inserted here--> 
-            </div>
-        </div>
+    <div class="brand-header">
+      <span class="brand-name">MiloTechStore</span>
     </div>
-    
 
+    <div class="welcome-message">
+      <span>Welcome, <strong id="user-name-display">User</strong></span>
+    </div>
 
-    <!-- PANEL LATERAL PARA EL CARRITO -->
+    <div class="navbar-actions">
+      <button id="logout-btn" class="btn-logout">
+        <span class="logout-icon">↪</span>
+        Log out
+      </button>
 
-    <!-- Overlay que oscurece el fondo -->
-    <div id="cart-overlay" class="cart-overlay"></div>
+      <button id="cart-btn" class="btn-cart">
+        🛒 Cart <span id="cart-count">0</span>
+      </button>
+    </div>
 
-    <!-- Panel lateral -->
-     <aside id="cart-panel" class="cart-panel">
-      <div class="cart-panel-header">
-        <h2>Your cart</h2>
-        <button id="cart-close-btn" class="btn-close">✕</button>
+  </header>
+
+  <main class="catalog-wrapper">
+    <div class="header-text">
+      <h1 class="title">Our Products</h1>
+      <p class="subtitle">Explore the best in technology.</p>
+    </div>
+
+    <section id="product-container" class="product-grid">
+      <!-- The products will be dynamically inserted here -->
+    </section>
+
+  </main>
+
+  <div id="product-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal-btn" class="close-btn">&times;</button>
+
+      <div id="modal-details" class="modal-body">
+        <!--here the product details will be dynamically inserted here-->
       </div>
-      <div id="cart-items" class="cart-panel-body">
+    </div>
+  </div>
 
-      <!-- Se llena dinámicamente con JS -->  
+
+
+  <!-- PANEL LATERAL PARA EL CARRITO -->
+
+  <!-- Overlay que oscurece el fondo -->
+  <div id="cart-overlay" class="cart-overlay"></div>
+
+  <!-- Panel lateral -->
+  <aside id="cart-panel" class="cart-panel">
+    <div class="cart-panel-header">
+      <h2>Your cart</h2>
+      <button id="cart-close-btn" class="btn-close">✕</button>
+    </div>
+    <div id="cart-items" class="cart-panel-body">
+
+      <!-- Se llena dinámicamente con JS -->
+    </div>
+    <div class="cart-panel-footer">
+      <div class="cart-panel-total">
+        <span>Total</span>
+        <span id="panel-cart-total">$0.00</span>
       </div>
-      <div class="cart-panel-footer">
-        <div class="cart-panel-total">
-          <span>Total</span>
-          <span id="panel-cart-total">$0.00</span>
-        </div>
-        <a href="cart.html" class="btn-cart-full">View Full Cart</a>
-      </div>
-     </aside>
+      <a href="cart.html" class="btn-cart-full">View Full Cart</a>
+    </div>
+  </aside>
 
-     
-    <script type="module" src="js/pages/product.js"></script>
 
-  </body>
+  <script type="module" src="js/pages/product.js"></script>
+</body>
+
 </html>
