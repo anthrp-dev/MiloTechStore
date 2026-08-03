@@ -48,10 +48,10 @@ function showProductDetails(id) {
 
     const stockMessage = product.stock > 0
         ? `<p style="color: #1b5e20; font-weight: bold; margin-bottom: 1rem;">
-            En stock: ${product.stock} unidades
+            In stock: ${product.stock} units
           </p>`
         : `<p style="color: red; font-weight: bold; margin-bottom: 1rem;">
-            ¡Agotado!
+            Out of stock!
           </p>`;
 
 
@@ -82,7 +82,7 @@ function showProductDetails(id) {
                 <button class="btn-primary" 
                         id="add-to-cart-btn"
                         ${product.stock === 0 ? 'disabled style="background-color: #ccc; cursor: not-allowed;"' : ''}>
-                    ${product.stock === 0 ? 'Sin existencias' : 'Add to Cart'}
+                    ${product.stock === 0 ? 'Out of Stock' : 'Add to Cart'}
                 </button>
               `
             : ''

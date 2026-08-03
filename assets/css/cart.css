@@ -16,6 +16,7 @@
 
 /* Tarjeta que muestra el total del carrito */
 .cart-summary {
+    margin-top:1rem;
     background: #ffffff;
     padding: 1.5rem;
     border-radius: 16px;
@@ -59,6 +60,65 @@
 
     .cart-summary {
         position: static;
+    }
+}
+
+/* =========================================
+   RESPONSIVE - PHONES
+========================================= */
+
+@media (max-width:480px){
+
+    .cart-wrapper-page{
+        padding:0 1rem 2rem;
+    }
+
+    .cart-item{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .cart-img{
+        width:120px;
+        height:120px;
+    }
+
+    .cart-item-info{
+        width:100%;
+    }
+
+    .cart-item-subtotal{
+        text-align:center;
+        min-width:auto;
+    }
+
+    .cart-item-quantity{
+        justify-content:center;
+    }
+
+    .cart-item-quantity button{
+        width:36px;
+        height:36px;
+        font-size:1.1rem;
+    }
+
+    .cart-item-remove{
+        font-size:1.8rem;
+    }
+
+    .form-row{
+        flex-direction:column;
+        gap:0;
+    }
+
+    .checkout-modal-content{
+        width:95%;
+        padding:1.5rem;
+    }
+
+    .cart-empty{
+        padding:2rem 1rem;
     }
 }
 
