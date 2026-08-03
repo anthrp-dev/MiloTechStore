@@ -3,7 +3,7 @@ import { showToast } from "../utils/notifications.js";
 import { requireAdmin } from "../utils/authGuard.js";
 
 const openAddModalBtn = document.getElementById('open-add-product-btn');
-const closeAddModalBtn = document.getElementById('close-add-product-btn');
+const closeAddModalBtn = document.getElementById("close-add-modal-btn");
 const addProductModal = document.getElementById('add-product-modal');
 const addProductForm = document.getElementById('add-product-form');
 const saveProductBtn = addProductForm?.querySelector("button[type='submit']");
