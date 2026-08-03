@@ -7,9 +7,12 @@
 }
 
 html,
+html,
 body {
     background-color: #f4f7f6;
     color: #333;
+    width: 100%;
+    overflow-x: hidden;
     width: 100%;
     overflow-x: hidden;
 }
