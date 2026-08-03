@@ -79,6 +79,7 @@
 .cart-panel-footer {
     padding: 1rem;      /* Espaciado interno */
     border-top: 1px solid #eee;     /* Línea superior para separarlo del contenido */
+    flex-shrink: 0;
 }
 
 /* ===========================
