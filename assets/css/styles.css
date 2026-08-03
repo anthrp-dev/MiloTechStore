@@ -446,6 +446,17 @@ body {
 
     .product-card {
         padding: 1.2rem;
+        align-items: center;
+    }
+
+    .product-card h3,
+    .product-card .subtitle,
+    .product-card .product-price {
+        text-align: center;
+    }
+
+    .btn-primary {
+        width:100%;
     }
 
     .product-card img {
